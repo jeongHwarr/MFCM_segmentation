@@ -9,14 +9,14 @@ This code uses modified fuzzy c-means algorithm (MFCM) to do tissue segmentation
 ## How to run?
 
 ### Run on mini data as default option 
-You just run <u>main.py<\u> in editor or enter <u>python main.py<\u> in command prompt.
-(In <i>img<\i> directory, there are 2 images for the test. These images are part of mini-MIAS database. (http://peipa.essex.ac.uk/info/mias.html) ) 
+You just run _main.py_ in editor or enter `python main.py` in command prompt.
+(In _img_ directory, there are 2 images for the test. These images are part of _mini-MIAS database_. (http://peipa.essex.ac.uk/info/mias.html) ) 
 
 ### User mode
-If you want to replace the mini data with your own data, put your images to img directory or edit path for your direrectory in <u>main.py<\u>.   
-If you change parameters of your experiment, you can change parameters by changing the default value of the argument in <u>main.py<\u> or you can you the command line in command prompt.
-- You can see all the adjustable parameters and usage. </pre> python main.py --help</pre>
-(For example, if you want to cluster with 5 clusters, enter this command in your command prompt.  </u>python main.py -c 5<\u>)
+If you want to replace the mini data with your own data, put your images to img directory or edit path for your direrectory in _main.py_.   
+If you change parameters of your experiment, you can change parameters by changing the default value of the argument in _main.py_ or you can you the command line in command prompt.
+- You can see all the adjustable parameters and usage. ```python main.py --help```
+(For example, if you want to cluster with 5 clusters, enter this command in your command prompt.  `python main.py -c 5`)
 
 ## Results
 
@@ -62,8 +62,8 @@ Iteration 34 : cost = 0.043659
 
 |Image| Result |
 |:---:|:---: |
-|mdb321.jpg|<img src = 'result.png'>|
-|mdb322.jpg|<img src = 'result2.png'>|  
+|mdb321.jpg|<img src = 'assets/result.png' width=800>|
+|mdb322.jpg|<img src = 'assets/result2.png' width=800>|  
 
 
 ## Troubleshooting:
